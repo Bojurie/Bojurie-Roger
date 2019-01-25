@@ -1,0 +1,6 @@
+.home-layout {
+    display: grid;
+
+    grid-template-rows: [navbar-s] 50px [navbar-e content-s] 1fr [content-e];
+    grid-template-columns: [s] 1fr [e];
+}

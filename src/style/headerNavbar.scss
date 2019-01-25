@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+
+    justify-content: center;
+
+}
+
+.navbar{
+    background-color:  rgba(45,45,45,0.98);
+    box-shadow: 0 2px 6 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 615px) {
+
+    .navbar > .navbar-list > a { 
+        font-size: 10px;
+        margin-left: 100px;
+        display: inline;
+    }
+
+}

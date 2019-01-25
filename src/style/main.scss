@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+@import 'home';
+@import 'headernavbar';
+@import 'showcase';
+
+
+
+
+@media (max-width: 615px) {
+
+    .showcase-bg > .header-text > .main-heading { 
+        letter-spacing: 1rem;
+    }
+
+    .showcase-bg > .header-text > .sub-heading { 
+        letter-spacing: 1rem;
+    }
+}
