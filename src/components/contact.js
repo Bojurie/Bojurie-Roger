@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import PageTitle from './pageTitle';
 
 class Contact extends Component {
     render (){
         return (
             <div className='portfolio'>
-                <h1>Contact</h1>
+            <PageTitle className='contact__page-title' title='Contact'/>
+                
 
             </div>
         )

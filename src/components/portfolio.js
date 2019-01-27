@@ -4,7 +4,8 @@ class Portfolio extends Component {
     render (){
         return (
             <div className='portfolio'>
-                <h1>Portfolio</h1>
+            <PageTitle className='portfolio__page-title' title='Portfolio'/>
+                
 
             </div>
         )
